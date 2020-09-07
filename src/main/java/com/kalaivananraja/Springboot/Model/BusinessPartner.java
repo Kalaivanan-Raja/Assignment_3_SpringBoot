@@ -8,14 +8,7 @@ import javax.persistence.Table;
  * @author Kalaivanan Raja
  *
  */
-/**
- * @author Kalaivanan Raja
- *
- */
-/**
- * @author Kalaivanan Raja
- *
- */
+
 @Entity
 @Table(name = "business_partner")
 public class BusinessPartner {
