@@ -114,7 +114,8 @@ public class ReadExcelFile {
 				case 22:
 					bs.setCountryCode(cell.getStringCellValue());
 					break;
-
+				default:
+					break;
 				}
 			}
 			business.add(bs);
