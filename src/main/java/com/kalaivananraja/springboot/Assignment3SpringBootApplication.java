@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * starts the serverlet for these project
+ * 
  * @author Kalaivanan Raja
  *
  */
@@ -13,6 +14,7 @@ public class Assignment3SpringBootApplication {
 
 	/**
 	 * it invoke run method to initialize the servelet
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
