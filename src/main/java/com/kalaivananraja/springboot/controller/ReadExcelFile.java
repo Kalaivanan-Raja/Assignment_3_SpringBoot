@@ -23,6 +23,8 @@ import com.kalaivananraja.springboot.model.BusinessPartner;
 public class ReadExcelFile {
 
 	/**
+	 * gets param file and read's it and save it in an arraylist and returns it
+	 * 
 	 * @param file
 	 * @return
 	 * @throws IOException
