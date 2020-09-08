@@ -1,6 +1,7 @@
 package com.kalaivananraja.springboot.repository;
 
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
 import com.kalaivananraja.springboot.model.BusinessPartner;
 
@@ -11,6 +12,7 @@ import com.kalaivananraja.springboot.model.BusinessPartner;
  * @author Kalaivanan Raja
  *
  */
-public interface BusinessRepository extends CrudRepository<BusinessPartner, Long> {
+@Repository
+public interface BusinessRepository extends CrudRepository<BusinessPartner, Integer> {
 
 }
