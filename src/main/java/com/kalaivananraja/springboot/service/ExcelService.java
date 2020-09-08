@@ -21,18 +21,17 @@ import com.kalaivananraja.springboot.model.BusinessPartner;
 @Service
 public class ExcelService {
 	@Autowired
-	BusinessRepository repo;
+	public BusinessRepository repo;
 	@Autowired
 	private Environment env;
 
-	FileInputStream file;
 
 	/**
 	 * save the data to database
 	 */
 	public void save() {
 		try {
-			file = new FileInputStream(env.getProperty("file"));
+			FileInputStream  file = new FileInputStream(env.getProperty("file"));
 			List<BusinessPartner> business = ReadExcelFile.excelToDb(file);
 			repo.saveAll(business);
 		} catch (Exception e) {
