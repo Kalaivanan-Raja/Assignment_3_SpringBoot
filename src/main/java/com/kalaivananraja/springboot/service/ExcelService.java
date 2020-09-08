@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
-import com.kalaivananraja.springboot.controller.ReadExcelFile;
+import com.kalaivananraja.springboot.excel.ReadExcelFile;
 import com.kalaivananraja.springboot.repository.BusinessRepository;
 import com.kalaivananraja.springboot.model.BusinessPartner;
 
