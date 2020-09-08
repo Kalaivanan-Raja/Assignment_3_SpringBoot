@@ -5,6 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
+ * It creates table structure to store values in an object
+ * 
  * @author Kalaivanan Raja
  *
  */
@@ -86,6 +88,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store business_partner_id value
+	 * 
 	 * @param business_partner_id
 	 */
 	public void setBusinessPartnerId(int business_partner_id) {
@@ -93,6 +97,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return business_partner_id
+	 * 
 	 * @return
 	 */
 	public int getBusinessPartnerId() {
@@ -100,6 +106,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store business_partner_name value
+	 * 
 	 * @param business_partner_name
 	 */
 	public void setBusinessPartnerName(String business_partner_name) {
@@ -107,6 +115,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return business_partner_name
+	 * 
 	 * @return
 	 */
 	public String getBusinessPartnerName() {
@@ -114,6 +124,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store business_partner_code value
+	 * 
 	 * @param business_partner_code
 	 */
 	public void setBusinessPartnerCode(String business_partner_code) {
@@ -121,6 +133,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return business_partner_code
+	 * 
 	 * @return
 	 */
 	public String getBusinessPartnerCode() {
@@ -128,6 +142,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store contact_name value
+	 * 
 	 * @param contact_name
 	 */
 	public void setContactNumber(String contact_name) {
@@ -135,6 +151,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return contact_name
+	 * 
 	 * @return
 	 */
 	public String getContactNumber() {
@@ -142,6 +160,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store address1 value
+	 * 
 	 * @param address1
 	 */
 	public void setAddress1(String address1) {
@@ -149,6 +169,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return address1
+	 * 
 	 * @return
 	 */
 	public String getAddress1() {
@@ -156,6 +178,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store address2 value
+	 * 
 	 * @param address2
 	 */
 	public void setAddress2(String address2) {
@@ -163,6 +187,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return address2
+	 * 
 	 * @return
 	 */
 	public String getAddress2() {
@@ -170,6 +196,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store city value
+	 * 
 	 * @param city
 	 */
 	public void setCity(String city) {
@@ -177,6 +205,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return city
+	 * 
 	 * @return
 	 */
 	public String getCity() {
@@ -184,6 +214,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store province value
+	 * 
 	 * @param province
 	 */
 	public void setProvince(String province) {
@@ -191,6 +223,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return province
+	 * 
 	 * @return
 	 */
 	public String getProvince() {
@@ -198,6 +232,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store country value
+	 * 
 	 * @param country
 	 */
 	public void setCountry(String country) {
@@ -205,6 +241,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return country
+	 * 
 	 * @return
 	 */
 	public String getCountry() {
@@ -212,6 +250,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store postal_code value
+	 * 
 	 * @param postal_code
 	 */
 	public void setPostalCode(String postal_code) {
@@ -219,6 +259,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return postal_code
+	 * 
 	 * @return
 	 */
 	public String getPostalCode() {
@@ -226,6 +268,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store parent_company value
+	 * 
 	 * @param parent_company
 	 */
 	public void setParentCompany(String parent_company) {
@@ -233,6 +277,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return parent_company
+	 * 
 	 * @return
 	 */
 	public String getParentCompany() {
@@ -240,6 +286,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store toll_free_number value
+	 * 
 	 * @param toll_free_number
 	 */
 	public void setTollFreeNumber(String toll_free_number) {
@@ -247,6 +295,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return toll_free_number
+	 * 
 	 * @return
 	 */
 	public String getTollFreeNumber() {
@@ -254,6 +304,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store phone value
+	 * 
 	 * @param phone
 	 */
 	public void setPhone(String phone) {
@@ -261,6 +313,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return phone
+	 * 
 	 * @return
 	 */
 	public String getPhone() {
@@ -268,6 +322,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store phone_extension value
+	 * 
 	 * @param phone_extension
 	 */
 	public void setPhoneExtension(String phone_extension) {
@@ -275,6 +331,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return phone_extension
+	 * 
 	 * @return
 	 */
 	public String getPhoneExtension() {
@@ -282,6 +340,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store fax value
+	 * 
 	 * @param fax
 	 */
 	public void setFax(String fax) {
@@ -289,6 +349,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return fax
+	 * 
 	 * @return
 	 */
 	public String getFax() {
@@ -296,6 +358,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store website_url value
+	 * 
 	 * @param website_url
 	 */
 	public void setWebsiteUrl(String website_url) {
@@ -303,6 +367,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return website_url
+	 * 
 	 * @return
 	 */
 	public String getWebsiteUrl() {
@@ -310,6 +376,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store payment_condition value
+	 * 
 	 * @param payment_condition
 	 */
 	public void setPaymentCondition(int payment_condition) {
@@ -317,6 +385,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return payment_condition
+	 * 
 	 * @return
 	 */
 	public int getPaymentCondition() {
@@ -324,6 +394,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store gl_number value
+	 * 
 	 * @param gl_number
 	 */
 	public void setGlNumber(String gl_number) {
@@ -331,6 +403,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return gl_number
+	 * 
 	 * @return
 	 */
 	public String getGlNumber() {
@@ -338,6 +412,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store driver_min_age value
+	 * 
 	 * @param driver_min_age
 	 */
 	public void setDriverMinAge(int driver_min_age) {
@@ -345,6 +421,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return driver_min_age
+	 * 
 	 * @return
 	 */
 	public int setDriverMinAge() {
@@ -352,6 +430,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store api_enabled value
+	 * 
 	 * @param api_enabled
 	 */
 	public void setApiEnabled(int api_enabled) {
@@ -359,6 +439,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return api_enabled
+	 * 
 	 * @return
 	 */
 	public int getApiEnabled() {
@@ -366,6 +448,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store status value
+	 * 
 	 * @param status
 	 */
 	public void setStatus(int status) {
@@ -373,6 +457,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return status
+	 * 
 	 * @return
 	 */
 	public int getStatus() {
@@ -380,6 +466,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store one_way_fee_paid_by value
+	 * 
 	 * @param one_way_fee_paid_by
 	 */
 	public void setOneWayFeePaidBy(String one_way_fee_paid_by) {
@@ -387,6 +475,8 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * return one_way_fee_paid_by
+	 * 
 	 * @return
 	 */
 	public String getOneWayFeePaidBy() {
@@ -394,13 +484,17 @@ public class BusinessPartner {
 	}
 
 	/**
+	 * store country_code value
+	 * 
 	 * @param country_code
 	 */
 	public void setCountryCode(String country_code) {
 		this.country_code = country_code;
 	}
-	
+
 	/**
+	 * return country_code
+	 * 
 	 * @return
 	 */
 	public String getCountryCode() {
