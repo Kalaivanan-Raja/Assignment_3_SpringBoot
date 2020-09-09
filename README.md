@@ -16,5 +16,5 @@ Steps to Run this Application
  
  Select the Project –>Run As –> Run Configuration –>Maven –> New. In the Main tab, key in the    Goals as “spring-boot: run” and click on Run.
  
- ![capture1](https://user-images.githubusercontent.com/70875089/92571938-60729580-f2a1-11ea-90ef-1ab8f234cf75.png)
+ ![Capture1](https://user-images.githubusercontent.com/70875089/92572365-f5758e80-f2a1-11ea-818e-aaf348773046.PNG)
  
