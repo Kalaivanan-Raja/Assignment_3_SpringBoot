@@ -29,7 +29,7 @@ public class Assignment3SpringBootApplicationTest {
 	private ReadExcelFile ref;
 	private BusinessPartner bp;
 	@Test
-	public void contextLoads() {
+	public void contextLoads() throws Exception {
 		assertThat(excelservice).isNotNull();
 		assertThat(ref).isNotNull();
 		assertThat(bp).isNotNull();
