@@ -1,4 +1,4 @@
-package com.kalaivananraja.springboot.exceltest.modeltest;
+package com.kalaivananraja.springboot.modeltest;
 
 import static org.junit.Assert.*;
 
